@@ -1,4 +1,4 @@
-# todo-list
+# Todo List Frontend
 
 ## Project setup
 ```
