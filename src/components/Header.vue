@@ -1,6 +1,6 @@
 <template>
   <header class="bg-gray-900 text-white py-5">
-    <div class="container mx-auto px-5 flex grid grid-cols-2 gap-4">
+    <div class="container mx-auto px-5 grid grid-cols-2 gap-4">
       <div>Logo</div>
       <div class="flex justify-end">
         <a href="" class="mx-3">Iniciar sesión</a>
