@@ -17,3 +17,10 @@ export default {
   }  
 }
 </script>
+
+<style>
+@font-face {
+  font-family: 'Poppins-regular';
+  src: local('Poppins-regular'), url('./assets/fonts/Poppins-Regular.ttf');
+}
+</style>
