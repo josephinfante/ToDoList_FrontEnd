@@ -4,7 +4,7 @@
       <div>Logo</div>
       <div class="flex justify-end">
         <router-link class="mx-3 my-auto links" :to="{ name: 'Login'}">Iniciar sesión</router-link>
-        <router-link class="mx-3 my-auto links" :to="{ name: 'Login'}">Registrarse</router-link>
+        <router-link class="mx-3 my-auto links" :to="{ name: 'Register'}">Registrarse</router-link>
         <label class="switch ml-3">
           <input type="checkbox">
           <span class="slider round"></span>
