@@ -4,10 +4,10 @@
         <div v-for="i in inputs" :key="i.placeholder">
             <Input :type="i.type" :placeholder="i.placeholder"/>
         </div>
-        <div class="mt-8 mb-10 text-right link mx-auto">
+        <div class="mt-8 text-right link mx-auto">
             <router-link :to="{ name: 'Home' }">Olvidaste tu contraseña?</router-link>
         </div>
-        <Button btn_link="/" btn_text="Iniciar sesión" />
+        <Button btn_text="Iniciar sesión" />
     </div>
 </template>
 
