@@ -1,7 +1,9 @@
 <template>
-    <button class="button">
-        {{ btn_text }}
-    </button>
+    <router-link :to="{ name: btn_link }">
+        <button class="button mt-10">
+            {{ btn_text }}
+        </button>
+    </router-link>
 </template>
 
 <script>
