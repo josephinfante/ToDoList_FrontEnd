@@ -3,8 +3,8 @@
     <div class="container mx-auto px-5 grid grid-cols-2 gap-4">
       <div>Logo</div>
       <div class="flex justify-end">
-        <a href="" class="mx-3 my-auto links">Iniciar sesión</a>
-        <a href="" class="mx-3 my-auto links">Registrarse</a>
+        <router-link class="mx-3 my-auto links" :to="{ name: 'Login'}">Iniciar sesión</router-link>
+        <router-link class="mx-3 my-auto links" :to="{ name: 'Login'}">Registrarse</router-link>
         <label class="switch ml-3">
           <input type="checkbox">
           <span class="slider round"></span>
